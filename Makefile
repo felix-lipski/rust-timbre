@@ -1,3 +1,3 @@
 run:
 	cargo run
-	sxiv out.png -s w
+	sxiv out.png -z 100
