@@ -22,6 +22,12 @@ dependencies = [
 ]
 
 [[package]]
+name = "arraytools"
+version = "0.1.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "a5367919938d9d809b2f2f6a3c7d7174c85ebb08beadf0c1d3dd94f64439f437"
+
+[[package]]
 name = "autocfg"
 version = "1.0.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -789,6 +795,7 @@ dependencies = [
 name = "rustnoise"
 version = "0.1.0"
 dependencies = [
+ "arraytools",
  "noise",
  "plotters",
  "plotters-backend",
