@@ -796,6 +796,7 @@ name = "rustnoise"
 version = "0.1.0"
 dependencies = [
  "arraytools",
+ "byteorder",
  "noise",
  "plotters",
  "plotters-backend",
